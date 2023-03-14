@@ -13,9 +13,8 @@ const Section = () => {
         if (filter.length === 0) {
           return <Card book={book} />;
         } else {
-          if(filter.indexOf(book.lang)!=-1){
+          if(filter.indexOf(book.lang)!==-1 || filter.indexOf(book.genre)!==-1){
             return <Card book={book} />;
-
           }
         }
       })}

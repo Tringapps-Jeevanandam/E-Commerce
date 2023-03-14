@@ -8,7 +8,7 @@ const CartPage = () =>{
 
    return (
     <div className="main">
-        {(cart.length===0)?(<div className='cart-empty'>Cart is Empty</div>):(cart.map(items=> <CartCard items={items}/>))
+        {(cart.length===0)?(<div className='cart-empty'>Cart is Empty</div>):(cart.map(items=> <CartCard items={items} />))
       }
 
     </div>

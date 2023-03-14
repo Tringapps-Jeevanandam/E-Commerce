@@ -9,7 +9,11 @@ import { Filter } from "./Components/FilterContext";
 
 function App() {
   const [showCart, setShowCart] = useState(false);
+  const [addtocart, setAddtocart] = useState(true);
 
+  const handleCartChange =()=>{
+    setAddtocart(!addtocart);
+  }
   const handleCartClick = () => {
     if (showCart) {
       setShowCart(false);
@@ -26,7 +30,7 @@ function App() {
         <Header onCartClick={handleCartClick} />
         <div className="container">
           <Sidebar />
-          <Section />
+          <Section onCartChange={handleCartChange} />
           {showCart && <CartPage />}
         </div>
       </AddCart>
