@@ -1,0 +1,11 @@
+.CartCard{
+   padding: 15px;
+   border: 1px solid #484848;
+   margin: 10px;
+   border-radius: 5px;
+   
+}
+.CartCard img{
+    width: 50px;
+    height: 70px;
+}

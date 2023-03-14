@@ -1,0 +1,20 @@
+.side{
+    width: 15%;
+    height: 50vmax;
+    background-color: #444343;
+    color: #fefefe;
+    overflow: auto;
+  
+}
+.lang{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.side h3{
+    padding: 10px;
+}
+.lang li{
+    margin-left: -30px;
+}
