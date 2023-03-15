@@ -5,11 +5,7 @@ import Context from "./Context";
 const Card = (props) => {
   const {cart,setCart} = useContext(Context);
   const [addtocart, setAddtocart] = useState(true);
-  // const handleClick = () => {
 
-  //   setCart([...cart,props.book]);
-  //   setAddtocart(!addtocart);
-  // };
 
   const handleClick = () => {
     if (addtocart) {

@@ -4,7 +4,7 @@ import  Context from './Context';
 import CartCard from './CartCard';
 
 const CartPage = () =>{
-    const {cart,setCart} = useContext(Context);
+    const {cart } = useContext(Context);
 
    return (
     <div className="main">

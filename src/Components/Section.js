@@ -5,7 +5,7 @@ import { data } from "./data";
 import FilterContext from "./FilterContext";
 
 const Section = () => {
-  const { filter, setFilter } = useContext(FilterContext);
+  const { filter } = useContext(FilterContext);
 
   return (
     <div className="section">

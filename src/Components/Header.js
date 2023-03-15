@@ -1,10 +1,9 @@
-import { useState } from "react";
 import {  FaShoppingCart,FaSearch  } from "react-icons/fa";
 import { useContext } from "react";
 import Context from "./Context";
 import "./Header.css";
 const Header = ({onCartClick}) => {
-  const { cart, setCart} = useContext(Context);
+  const { cart } = useContext(Context);
   console.log(cart)
   
   return (
