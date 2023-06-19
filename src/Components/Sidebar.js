@@ -27,17 +27,17 @@ const Sidebar = () => {
     <div className="side">
       <h3>Languages</h3>
       <ul className="lang">
-        <li onClick={() => langFilter("english")}>English</li>
-        <li onClick={() => langFilter("tamil")}>Tamil</li>
-        <li onClick={() => langFilter("french")}>French</li>
-        <li onClick={() => langFilter("hindi")}>Hindi</li>
+        <li><input onClick={() => langFilter("english")} type="checkbox" /><label>English</label></li>
+        <li><input onClick={() => langFilter("tamil")} type="checkbox" /><label>Tamil</label></li>
+        <li><input onClick={() => langFilter("french")} type="checkbox" /><label>French</label></li>
+        <li><input onClick={() => langFilter("hindi")} type="checkbox" /><label>Hindi</label></li>
       </ul>
       <h3>Category</h3>
       <ul className="lang">
-        <li onClick={()=>GenreFilter("ActionAdventure")}>Action & Adventure</li>
-        <li onClick={()=>GenreFilter("biography")}>Biographies</li>
-        <li onClick={()=>GenreFilter("comic")}>Comics & Mangas</li>
-        <li onClick={()=>GenreFilter("children")}>children's Books</li>
+        <li><input onClick={()=>GenreFilter("ActionAdventure")} type="checkbox"/><label>Action & Adventure</label></li>
+        <li><input onClick={()=>GenreFilter("biography")} type="checkbox"/><label>Biography</label></li>
+        <li><input onClick={()=>GenreFilter("comic")} type="checkbox"/><label>Comics</label></li>
+        <li><input onClick={()=>GenreFilter("children")} type="checkbox"/><label>Kids Books</label></li>
       </ul>
     </div>
   );
