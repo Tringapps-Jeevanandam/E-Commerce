@@ -21,6 +21,9 @@ li{
 a{
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 nav h1{
     padding: 10px  20px;
 }
