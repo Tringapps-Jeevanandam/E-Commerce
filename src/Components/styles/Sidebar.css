@@ -1,0 +1,31 @@
+.side{
+    width: 16%;
+    height: 60vmax;
+    background-color: #444343;
+    color: #fefefe;
+    overflow: auto;
+    position: fixed;
+  
+}
+.lang{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.side h3{
+    padding: 10px;
+}
+.lang li{
+    margin-left: -30px;
+    width: 100%;
+    padding-inline: 20px;
+}
+.side li:hover{
+    background-color: #fefefe;
+    color: #000;
+}
+.active{
+    background-color: #fefefe;
+    color: #000;
+}
