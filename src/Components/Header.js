@@ -9,7 +9,7 @@ const Header = ({onCartClick}) => {
   return (
     <>
       <nav>
-        <h1>Books</h1>
+        <h1>Books Store</h1>
         <div className="search"><input type="search" placeholder="Search"/><span><FaSearch/></span></div>
         <ul>
           <li><a href="/">Home</a></li>
